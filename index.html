@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
-    <!--Display on medium screens and above-->
-    <div class="calloutContainer container-fluid d-none d-md-block">
+    <!--Callout Section-->
+    <div class="calloutContainer container-fluid">
         <!--Navbar-->
         <nav class="navbar">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i></button>
             <a href="index.html" class="navbar-brand mx-auto">TopFlight Tuition</a>
-            <button class="btn btn-primary d-none d-sm-block">Contact Us</button>
+            <button class="btn btn-primary contact-btn d-none d-sm-block">Contact Us</button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-2"><a href="membership.html" class="nav-link">Classes</a></li>
@@ -24,7 +24,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Our Subjects
                     </a>
-                    <div class="dropdown-menu"       aria-labelledby="navbarDropdownMenuLink">
+                    <div id="subjects-dropdown" class="dropdown-menu"       aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">English</a>
                         <a class="dropdown-item" href="#">Maths</a>
                         <a class="dropdown-item" href="#">Science</a>
@@ -37,45 +37,17 @@
         <div class="row">
             <div class="col-12 jumbotronContainer">
                 <div class="jumbotron text-center">
-                    <h1>Private tutoring to help your child suceed!</h1>
-                    <button class="btn btn-primary">Get in touch</button>
+                    <h1 class="callout-heading">Private tutoring to help your child succeed!</h1>
+                    <blockquote class="callout-text">Professional tuition to help young children take flight with their studies.</blockquote>
+                    <button class="btn btn-primary callout-btn">Get in touch</button>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!--Display on small screens only-->
-    <div class="calloutContainerMobile container-fluid d-sm-block d-md-none">
-        <!--Navbar-->
-        <nav class="navbar">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdownM" aria-controls="navbarNavDropdownM" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i></button>
-            <a href="index.html" class="navbar-brand mx-auto">TopFlight Tuition</a>
-            <button class="btn btn-primary d-none d-sm-block">Contact Us</button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdownM">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-2"><a href="membership.html" class="nav-link">Classes</a></li>
-                    <li>
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkM" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Our Subjects
-                    </a>
-                    <div class="dropdown-menu"       aria-labelledby="navbarDropdownMenuLinkM">
-                        <a class="dropdown-item" href="#">English</a>
-                        <a class="dropdown-item" href="#">Maths</a>
-                        <a class="dropdown-item" href="#">Science</a>
-                    </div>
-                    </li>
-                    <li class="nav-item mr-2"><a href="contact.html" class="nav-link">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row">
-            <div class="col-12 jumbotronContainer">
-                <div class="jumbotron text-center">
-                    <h1>Private tutoring to help your child suceed!</h1>
-                    <button class="btn btn-primary">Get in touch</button>
-                </div>
-            </div>
+        <div class="d-none d-sm-block">
+            <ul class="list-inline contact-info">
+                <li class="list-inline-item">Email: info@topflighttuition.com</li>
+                <li class="list-inline-item">Tel: 02087955368</li>
+            </ul>
         </div>
     </div>
     

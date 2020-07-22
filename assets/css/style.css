@@ -2,7 +2,7 @@
 
 .jumbotronContainer{
     position: relative;
-    margin-top: 12%;
+    margin-top: 8%;
 }
 
 .jumbotron{
@@ -11,18 +11,61 @@
 }
 
 .calloutContainer{
-    background: url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1367&q=80") no-repeat center center fixed;
-    height: 100vh;
-    background-size: cover;
-}
-
-.calloutContainerMobile{
     background: url("https://images.unsplash.com/photo-1513708929605-6dd0e1b081bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80") no-repeat center center fixed;
     height: 100vh;
     background-size: cover;
 }
 
+.callout-heading{
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+.callout-btn{
+    margin: 2%;
+}
+
+.callout-text{
+    font-size: 93%;
+}
+
+.contact-info{
+    z-index: 2;
+    color: white;
+    position: absolute;
+    bottom:0;
+    right:0;
+    list-style: none;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-right: 3%;
+    text-transform: uppercase;
+    font-size: 75%;
+}
+
+.list-inline-item{
+    padding-bottom: 15px;
+}
+
 /* Navbar */
 .navbar a{
     color: white;
+}
+
+.navbar-brand {
+    font-size: 150%;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 131%;
+}
+
+.contact-btn{
+    border: 2px solid #007bff;
+    background-color: transparent;
+}
+
+#subjects-dropdown a{
+    color: black;
 }
